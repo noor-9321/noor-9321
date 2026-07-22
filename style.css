@@ -115,3 +115,46 @@ nav ul li a:hover{
     line-height:1.8;
     color:#cfcfcf;
 }
+
+
+.skills{
+    width:90%;
+    margin:120px auto;
+    text-align:center;
+}
+
+.skills h2{
+    color:#00bfff;
+    font-size:45px;
+    margin-bottom:40px;
+}
+
+.skill-box{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:280px;
+    background:#161b22;
+    padding:30px;
+    border-radius:15px;
+    transition:.4s;
+    border:1px solid #30363d;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 25px #00bfff;
+}
+
+.card h3{
+    color:#00bfff;
+    margin-bottom:15px;
+}
+
+.card p{
+    color:#cfcfcf;
+}
