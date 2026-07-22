@@ -201,3 +201,46 @@ nav ul li a:hover{
 .project-card p{
     color:#cfcfcf;
 }
+
+
+.projects{
+    width:90%;
+    margin:120px auto;
+    text-align:center;
+}
+
+.projects h2{
+    color:#00bfff;
+    font-size:45px;
+    margin-bottom:40px;
+}
+
+.project-box{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.project-card{
+    width:330px;
+    background:#161b22;
+    padding:30px;
+    border-radius:15px;
+    border:1px solid #30363d;
+    transition:.4s;
+}
+
+.project-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 25px #00bfff;
+}
+
+.project-card h3{
+    color:#00bfff;
+    margin-bottom:15px;
+}
+
+.project-card p{
+    color:#cfcfcf;
+}
